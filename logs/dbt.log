@@ -1,0 +1,101 @@
+
+
+============================== 2023-04-17 08:18:52.960934 | a26472cc-b8f3-436f-a11c-dffdff1bee6f ==============================
+[0m08:18:52.960934 [info ] [MainThread]: Running with dbt=1.4.5
+[0m08:18:52.960934 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\JIANGQI\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m08:18:52.960934 [debug] [MainThread]: Tracking: tracking
+[0m08:18:52.960934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230D5B41760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230D5B41AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230D5B41640>]}
+[0m08:18:52.960934 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\JIANGQI\.dbt
+[0m08:20:46.739968 [debug] [MainThread]: Starter project path: F:\python3.8\lib\site-packages\dbt\include\starter_project
+[0m08:31:24.349067 [info ] [MainThread]: Profile jaffle_shop written to C:\Users\JIANGQI\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:31:24.350136 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:31:24.350136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230D5AF9FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230D5D00C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230D5D00100>]}
+[0m08:31:24.352363 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-17 08:33:14.892535 | 70e40f58-21aa-4f6d-99dd-10ed2b885999 ==============================
+[0m08:33:14.892535 [info ] [MainThread]: Running with dbt=1.4.5
+[0m08:33:14.893535 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\JIANGQI\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m08:33:14.894526 [debug] [MainThread]: Tracking: tracking
+[0m08:33:14.894526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001778CC0AD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001778CC0AC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001778CC0AB80>]}
+[0m08:33:14.998127 [debug] [MainThread]: Executing "git --help"
+[0m08:33:15.051821 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:33:15.051821 [debug] [MainThread]: STDERR: "b''"
+[0m08:33:15.065862 [debug] [MainThread]: Acquiring new spark connection 'debug'
+[0m08:33:15.065862 [debug] [MainThread]: Using spark connection "debug"
+[0m08:33:15.066255 [debug] [MainThread]: On debug: select 1 as id
+[0m08:33:15.066255 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:33:15.067275 [debug] [MainThread]: Spark adapter: Error while running:
+select 1 as id
+[0m08:33:15.067275 [debug] [MainThread]: Spark adapter: Database Error
+  failed to connect
+[0m08:33:15.069258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001778CE4FA60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001778CE4FD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001778CE4F970>]}
+[0m08:33:15.070257 [debug] [MainThread]: Flushing usage events
+[0m08:33:16.291598 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-04-17 12:02:20.494746 | be465d84-10bf-46c3-aa48-3b56e88a4449 ==============================
+[0m12:02:20.494746 [info ] [MainThread]: Running with dbt=1.4.5
+[0m12:02:20.496746 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\JIANGQI\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m12:02:20.496746 [debug] [MainThread]: Tracking: tracking
+[0m12:02:20.497746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AE2553E20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AE25539A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AE254DC40>]}
+[0m12:02:20.609669 [debug] [MainThread]: Executing "git --help"
+[0m12:02:20.665728 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:02:20.666735 [debug] [MainThread]: STDERR: "b''"
+[0m12:02:20.668735 [debug] [MainThread]: Acquiring new spark connection 'debug'
+[0m12:02:20.668735 [debug] [MainThread]: Using spark connection "debug"
+[0m12:02:20.669729 [debug] [MainThread]: On debug: select 1 as id
+[0m12:02:20.669729 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:02:22.728421 [warn ] [MainThread]: Spark adapter: Warning: Could not connect to any of [('192.168.88.101', 10000)], retrying due to 'retry_all' configuration set to true.
+	Retrying in 60 seconds (0 of 5)
+[0m12:03:24.761376 [warn ] [MainThread]: Spark adapter: Warning: Could not connect to any of [('192.168.88.101', 10000)], retrying due to 'retry_all' configuration set to true.
+	Retrying in 60 seconds (1 of 5)
+[0m12:04:26.797327 [warn ] [MainThread]: Spark adapter: Warning: Could not connect to any of [('192.168.88.101', 10000)], retrying due to 'retry_all' configuration set to true.
+	Retrying in 60 seconds (2 of 5)
+[0m12:05:28.848068 [warn ] [MainThread]: Spark adapter: Warning: Could not connect to any of [('192.168.88.101', 10000)], retrying due to 'retry_all' configuration set to true.
+	Retrying in 60 seconds (3 of 5)
+[0m12:06:30.898302 [warn ] [MainThread]: Spark adapter: Warning: Could not connect to any of [('192.168.88.101', 10000)], retrying due to 'retry_all' configuration set to true.
+	Retrying in 60 seconds (4 of 5)
+[0m12:07:32.958596 [warn ] [MainThread]: Spark adapter: Warning: Could not connect to any of [('192.168.88.101', 10000)], retrying due to 'retry_all' configuration set to true.
+	Retrying in 60 seconds (5 of 5)
+[0m12:08:32.961513 [debug] [MainThread]: Spark adapter: Error while running:
+select 1 as id
+[0m12:08:32.963513 [debug] [MainThread]: Spark adapter: Could not connect to any of [('192.168.88.101', 10000)]
+[0m12:08:32.965513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AE27AAEE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AE27AAEB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029AE27AAD90>]}
+[0m12:08:32.966633 [debug] [MainThread]: Flushing usage events
+[0m12:08:33.929289 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-04-17 12:09:50.385348 | ce8aa46a-6a44-4a80-9bed-90babaec6d11 ==============================
+[0m12:09:50.385348 [info ] [MainThread]: Running with dbt=1.4.5
+[0m12:09:50.387347 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\JIANGQI\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m12:09:50.387347 [debug] [MainThread]: Tracking: tracking
+[0m12:09:50.387347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD4E823DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD4E823880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD4E81DC10>]}
+[0m12:09:50.488255 [debug] [MainThread]: Executing "git --help"
+[0m12:09:50.542617 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:09:50.542617 [debug] [MainThread]: STDERR: "b''"
+[0m12:09:50.545829 [debug] [MainThread]: Acquiring new spark connection 'debug'
+[0m12:09:50.545829 [debug] [MainThread]: Using spark connection "debug"
+[0m12:09:50.545829 [debug] [MainThread]: On debug: select 1 as id
+[0m12:09:50.546832 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:09:58.607730 [debug] [MainThread]: Spark adapter: Poll status: 2, query complete
+[0m12:09:58.607730 [debug] [MainThread]: SQL status: OK in 8 seconds
+[0m12:09:58.608740 [debug] [MainThread]: On debug: Close
+[0m12:09:58.631271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD4EA7CD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD4EA7C1F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD4EA7C820>]}
+[0m12:09:58.631271 [debug] [MainThread]: Flushing usage events
+[0m12:09:59.662888 [debug] [MainThread]: Connection 'debug' was properly closed.
